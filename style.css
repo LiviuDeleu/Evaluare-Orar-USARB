@@ -58,6 +58,12 @@ header{
 section{
     margin-left: 50px;
     display: grid;
-    grid-template-columns: 90px 110px 100px;
+    grid-template-columns: 90px 110px 200px 800px;
     grid-column-gap: 30px;
+}
+.usarbtext{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
