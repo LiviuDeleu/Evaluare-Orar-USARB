@@ -132,12 +132,16 @@ input{
     text-align: center;
     cursor: pointer;
 }
+.celuleverzi:hover{
+    background-color: rgb(35, 168, 90);
+}
 .container2{
     display: grid;
     grid-template-columns: 50px 50px 50px 50px 50px 50px 50px;
     margin-left: 112px;
     margin-top: -216px;
 }
+
 .celuleverzi2{
     background-color: rgb(0, 104, 43);
     color: white;
@@ -182,6 +186,9 @@ input{
     text-align: center;
     border: 1px solid black;
 }
+.cellgreen:hover{
+    background-color: rgb(35, 168, 90);
+}
 h3{
     color: rgb(255, 255, 255);
 }
@@ -192,6 +199,9 @@ h3{
     width: 600px;
     text-align: center;
     border: 1px solid black;
+}
+.tablecellwhite:hover{
+    background-color: rgb(190, 190, 190);
 }
 .tabelpart1{
     display: grid;
