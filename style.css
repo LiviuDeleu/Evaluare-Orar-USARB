@@ -9,7 +9,7 @@ body{
     height: 50px;
     width: 250px;
     text-align: center;
-    margin-left: 100px;
+    margin-left: 120px;
     margin-top: 30px;
     cursor: pointer;
 }
@@ -47,6 +47,7 @@ header{
     background-color: rgb(0, 104, 43);
     text-align: center;
     cursor: pointer;
+    margin-left: 20px;
 }
 .cell2{
     height: 40px;
@@ -54,6 +55,7 @@ header{
     background-color: rgb(0, 104, 43);
     text-align: center;
     cursor: pointer;
+    margin-left: 20px;
 }
 section{
     margin-left: 50px;
@@ -68,7 +70,7 @@ section{
     -webkit-text-stroke-color: black;
 }
 input{
-    width: 400px;
+    width: 415px;
     height: 30px;
 }
 .groupselect{
@@ -81,7 +83,7 @@ input{
 a{
     background-color: white;
     border: 1px solid black;
-    width: 400px;
+    width: 415px;
     text-decoration: none;
     color: black;
 }
@@ -89,13 +91,71 @@ a{
     margin-left: 50px;
     margin-top: 10px;
     height: 40px;
-    width: 400px;
+    width: 415px;
     font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
 }
 .selecteaza2{
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 50px;
     margin-top: 10px;
     height: 40px;
-    width: 400px;
+    width: 415px;
+    cursor: pointer;
+}
+.selecteaza3{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+    margin-top: 10px;
+    height: 40px;
+    width: 415;
+    cursor: pointer;
+}
+
+/*-------------------------tabel ore pe saptamana----------------------*/
+.container{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.celuleverzi{
+    background-color: rgb(0, 104, 43);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 25px;
+    width: 60px;
+    border: 1px solid black;
+    text-align: center;
+    cursor: pointer;
+}
+.container2{
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px 50px;
+    margin-left: 112px;
+    margin-top: -216px;
+}
+.celuleverzi2{
+    background-color: rgb(0, 104, 43);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 25px;
+    width: 50px;
+    border: 1px solid black;
+    text-align: center;
+    cursor: pointer;
+}
+.container3{
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px 40px;
+    margin-left: 112px;
+    margin-top: 0px;
+}
+.cellwhite{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    height: 25px;
+    width: 50px;
+    border: 1px solid black;
+    text-align: center;
+    cursor: pointer;
 }
