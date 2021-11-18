@@ -1,0 +1,28 @@
+body{
+    background-image: url(photo/background.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+.orar{
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    width: 250px;
+    text-align: center;
+    margin-left: 100px;
+}
+#orartext{
+    font-family: Anton;
+    color: black;
+    font-size: 30px;
+    margin-top: 5px;
+}
+header{
+    display: grid;
+    grid-template-columns: 400px 100px;
+    grid-column-gap: 400px;
+}
+.usarblogo{
+    width: 100px;
+    height: 100px;
+}
